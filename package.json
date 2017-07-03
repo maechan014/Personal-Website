@@ -1,0 +1,26 @@
+{
+  "name": "website-design",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "consolidate": "^0.14.5",
+    "database": "0.0.2",
+    "express": "^4.15.3",
+    "nunjucks": "^3.0.0",
+    "pg": "^6.2.2",
+    "sequelize": "^3.30.4",
+    "sequelize-cli": "^2.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@webeng.arnellebalane.com:chrmnyg/website-design.git"
+  },
+  "author": "",
+  "license": "ISC"
+}

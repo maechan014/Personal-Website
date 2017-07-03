@@ -1,0 +1,165 @@
+body {
+	background: #292f33;
+	font-family: 'Droid Sans', sans-serif;
+	color: #fff;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+
+h1{
+	margin-bottom: 30px;
+}
+h6 {
+	font-weight: 700px;
+	font-size: 1.5em;
+}
+
+p{
+	color: #b6b2b2;
+	margin-top: 20px;
+}
+
+a, a:hover, a:active, a:focus {
+	color: #ff3636;
+	text-decoration: none;
+}
+
+a.username {
+	font-size: 18px;
+}
+
+input[type=submit]{
+	padding: 10px 40px;
+	font-size: 15px;
+	border: 1px solid #646464;
+	background: transparent;
+	margin-top: 30px;
+}
+
+textarea{
+	height: 100px;
+}
+
+
+
+/* ID */
+#about {
+	/*background: #2d3337;*/
+}
+
+
+#header{
+	background: #292f33;
+	color: #fff;
+	min-height: 140px;
+}
+
+#header .container {
+	margin-top: 30px;
+}
+
+#header-nav {
+	padding-top: 20px;
+}
+
+#header-nav ul{
+	display: inline-flex;
+}
+
+
+
+/* CLASSES */
+
+.box {
+	margin: 10px 0;
+}
+
+.cnt-bg{
+	background: #363b3f;
+	padding: 30px 60px 30px;
+	margin-bottom: 20px;
+}
+
+.cnt-info{
+	position: relative;
+	padding: 10px 40px 0px; 
+}
+
+.cnt-info i{
+	position: absolute;
+	left: 0;
+	/*top: 22px;*/
+	color: #ff3636;
+}
+.header-nav a{
+	color: #fff;
+	margin: 10px;
+}
+
+.header-nav a.active, .header-nav li > a:focus, .header-nav li > a:hover{
+	color: red;
+}
+.image-pop img{
+	transition: .3s ease;
+	overflow: hidden;
+}
+
+.image-pop img:hover{
+	opacity: .5;
+	filter: alpha(opacity=50); 
+	transition: all .3s ease;
+	transform: scale(1.5); 
+	z-index: -1;
+}
+
+.image-box {
+	overflow: hidden;
+}
+
+.input-design {
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	padding: 20px 10px 10px;
+	background: transparent;
+	border-color: #646464;
+	border-bottom-width: 1px;
+	width: 100%;
+	outline: 0;
+}
+
+.preview-wrapper{
+	width: 100%;
+}
+
+.section{
+	min-height: 500px;
+}
+
+.section .container {
+	padding: 20px 0px;
+}
+
+.sns-follow i{
+	display: block;
+	font-size: 70px;
+	margin-bottom: 20px;
+}
+
+.sns-links a{
+	padding: 10px;
+	margin: 10px;
+	color: #b6b2b2;
+}
+
+.row-margin{
+	margin: 0 30px 50px;
+}
+
+/* OVERRIDES */
+.nav>li>a:hover {
+	background-color: rgba(255,255,255,.15);
+}
+
